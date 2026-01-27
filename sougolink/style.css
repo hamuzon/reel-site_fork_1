@@ -1,7 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     background-color: black;
 }
 
+body {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
 p {
     color: white;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    margin-bottom: 15px;
+    font-weight: bold;
 }
