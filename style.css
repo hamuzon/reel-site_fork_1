@@ -70,8 +70,9 @@ h1 {
     height: auto;
 }
 
-.sns-icon-note {
-    
+.sns-icon-github {
+    width: clamp(65px, 10vw, 70px);
+    height: auto;
 }
 
 .btn-rect {
@@ -102,4 +103,5 @@ h1 {
 a {
   color: white;
 }
+
 
