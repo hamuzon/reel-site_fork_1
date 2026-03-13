@@ -76,7 +76,7 @@ h1 {
 }
 
 .sns-icon-discord {
-    width: clump(20px,3vw,40px);
+    width: clump(50px,3vw,40px);
     height: auto;
 }
 
@@ -108,6 +108,7 @@ h1 {
 a {
   color: white;
 }
+
 
 
 
