@@ -75,6 +75,11 @@ h1 {
     height: auto;
 }
 
+.sns-icon-discord {
+    width: 100px;
+    heigth: auto;
+}
+
 .btn-rect {
     display: inline-block;
     padding: clamp(8px, 2vw, 12px) clamp(16px, 4vw, 24px);
