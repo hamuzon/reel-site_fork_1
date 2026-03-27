@@ -11,7 +11,7 @@ body {
     padding: 20px 15px;
     text-align: center;
     font-family: "Zen Kaku Gothic New", sans-serif;
-    color: linear-gradient(to bottom, 255, 133, 33, blue);
+    color: background(to bottom, rgb(255,133,33), blue);
     overflow-wrap: break-word;
 }
 
