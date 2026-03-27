@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to bottom, rgb(255, 133, 33) 80%, black 20%);
+  background: linear-gradient(to bottom, rgb(255, 133, 33) 10%, black 90%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
