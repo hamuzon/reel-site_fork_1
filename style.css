@@ -66,7 +66,7 @@ h1 {
 }
 
 .sns-icon-note {
-    width: clamp(35px, 10vw, 70px);
+    width: clamp(40px, 10vw, 70px);
     height: auto;
 }
 
