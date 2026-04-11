@@ -61,12 +61,12 @@ h1 {
 }
 
 .sns-icon-x {
-    width: clamp(25px, 6vw, 30px);
+    width: clamp(30px, 6vw, 30px);
     height: auto;
 }
 
 .sns-icon-note {
-    width: clamp(50px, 10vw, 70px);
+    width: clamp(30px, 10vw, 70px);
     height: auto;
 }
 
