@@ -2,43 +2,62 @@
 <html lang="ja">
 
 <head>
-        <title>りーるのサイト</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&display=swap"
-                rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPSCHCCMEC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MPSCHCCMEC');
+    </script>
+
+    <!-- Vercel Web Analytics -->
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィール - りーるのサイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
-        <h1>プロフィール</h1>
-        <img src="../assets/profile.webp" alt="りーるのアイコン" class="profile-img" width="150" height="auto" decoding="async">
+    <h1>プロフィール</h1>
+    <picture>
+        <source srcset="../assets/profile.webp" type="image/webp">
+        <img src="../assets/profile.png" alt="りーるのアイコン" class="profile-img" width="150" height="150" decoding="async">
+    </picture>
 
-        <details>
-                <summary class="sns-summery">
-                        <span> sns-list</span>
-                </summary>
-                <h4>
-                        <a href="https://bsky.app/profile/reel3030.f5.si" style="color: white;"><img
-                                        src="../assets/bsky.png" target="_blank" class="bsky-logo"
-                                        alt="りーるのbluesky"></a>
-                        <a href="https://x.com/reel3030" alt="りーるのX" style="color: white;"><img src="../assets/x.png"
-                                        target="_blank" class="x-logo"></a>
-                        <a href="https://discordapp.com/users/1472370639976267944" alt="りーるのdiscord"
-                                style="color: white;"><img src="../assets/discord-logo.svg" target="_blank"
-                                        class="discord-logo"></a>
-                        <a href="https://note.com/reel3030" alt="りーるのnote" style="color: white;"><img
-                                        src="../assets/note-logo.svg" target="_blank" class="note-logo"></a>
-                        <a href="https://www.instagram.com/reel30302/" alt="りーるのinstagram" style="color: white;"><img
-                                        src="../assets/Instagram.svg" target="_blank" class="instagram-logo"></a>
-                        <a href="https://www.youtube.com/@Reel-ch" alt="りーるのyoutube" style="color: white;"><img
-                                        src="../assets/yt_logo.png" target="_blank" class="yt-logo"></a>
-                        <a href="https://karotter.com/profile/reel3030" alt="りーるのkarotter" style="color: white;">
-                                <p class="karotter-logo">karotter</p>
-                        </a>
-                </h4>
-        </details>
+    <details>
+        <summary class="sns-summery">
+            <span> sns-list</span>
+        </summary>
+        <h4>
+            <a href="https://bsky.app/profile/reel3030.f5.si" target="_blank" rel="noopener noreferrer"><img
+                    src="../assets/bsky.png" class="bsky-logo" alt="りーるのbluesky"></a>
+            <a href="https://x.com/reel3030" target="_blank" rel="noopener noreferrer"><img src="../assets/x.png"
+                    class="x-logo" alt="りーるのX"></a>
+            <a href="https://discordapp.com/users/1472370639976267944" target="_blank" rel="noopener noreferrer"><picture>
+                    <source srcset="../assets/discord-logo.svg" type="image/svg+xml">
+                    <img src="../assets/discord-logo.png" class="discord-logo" alt="りーるのdiscord">
+                </picture></a>
+            <a href="https://note.com/reel3030" target="_blank" rel="noopener noreferrer"><img
+                    src="../assets/note-logo.svg" class="note-logo" alt="りーるのnote"></a>
+            <a href="https://www.instagram.com/reel30302/" target="_blank" rel="noopener noreferrer"><picture>
+                    <source srcset="../assets/Instagram.svg" type="image/svg+xml">
+                    <img src="../assets/Instagram.png" class="instagram-logo" alt="りーるのinstagram">
+                </picture></a>
+            <a href="https://www.youtube.com/@Reel-ch" target="_blank" rel="noopener noreferrer"><img
+                    src="../assets/yt_logo.png" class="yt-logo" alt="りーるのyoutube"></a>
+            <a href="https://karotter.com/profile/reel3030" target="_blank" rel="noopener noreferrer">
+                <span class="karotter-logo">karotter</span>
+            </a>
+        </h4>
+    </details>
 
 </body>
-</head>
 
 </html>

@@ -2,15 +2,15 @@
 <html lang="ja">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPSCHCCMEC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPSCHCCMEC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-MPSCHCCMEC');
-</script>
+        gtag('config', 'G-MPSCHCCMEC');
+    </script>
 
     <!-- Vercel Web Analytics -->
     <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
@@ -30,23 +30,29 @@
 <body>
     <h1 class="zen-kaku-gothic-new-regular">りーるのサイト</h1><br>
 
-    <img src="assets/profile.webp" alt="りーるのアイコン" class="profile-img" width="150" height="150" decoding="async">
+    <picture>
+        <source srcset="assets/profile.webp" type="image/webp">
+        <img src="assets/profile.png" alt="りーるのアイコン" class="profile-img" width="150" height="150" decoding="async">
+    </picture>
 
     <p class="sns">
         <a href="https://x.com/reel3030" target="_blank" rel="noopener noreferrer">
-            <img src="assets/x.png" alt="X" class="sns-icon-x" width="120" height="123" decoding="async">
+            <img src="assets/x.png" alt="X" class="sns-icon-x" width="20" height="21" decoding="async">
         </a>
         <a href="https://note.com/reel3030" target="_blank" rel="noopener noreferrer">
-            <img src="assets/note.png" alt="note" class="sns-icon-note" width="493" height="493" decoding="async">
+            <img src="assets/note.png" alt="note" class="sns-icon-note" width="24" height="24" decoding="async">
         </a>
         <a href="https://github.com/reel3030" target="_blank" rel="noopener noreferrer">
-            <img src="assets/GitHub_Invertocat_White.svg" alt="Github" class="sns-icon-github" width="30" height="30"
-                decoding="async">
+            <picture>
+                <source srcset="assets/GitHub_Invertocat_White.svg" type="image/svg+xml">
+                <img src="assets/GitHub_Invertocat_White.png" alt="Github" class="sns-icon-github" width="25" height="25" decoding="async">
+            </picture>
         </a>
         <a href="https://discordapp.com/users/1472370639976267944" target="_blank" rel="noopener noreferrer">
-
-            <img src="assets/discord-icon.svg" alt="discord" class="sns-icon-discord" width="30" height="30"
-                decoding="async">
+            <picture>
+                <source srcset="assets/discord-icon.svg" type="image/svg+xml">
+                <img src="assets/discord-icon.png" alt="discord" class="sns-icon-discord" width="30" height="30" decoding="async">
+            </picture>
         </a>
     </p>
 
